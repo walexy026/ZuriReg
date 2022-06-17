@@ -39,6 +39,8 @@ body{
     padding: 15px 10vw;
     border-radius: 5px;
     margin-bottom: 1em;
+    font-weight: 400;
+    border: none;
 }
 form{
     /* padding: 15px 7vw; */
@@ -46,12 +48,16 @@ form{
     background-color: #ffffff;
 }
 form input{
-    /* padding: 15px 10vw; */
+    padding-right: 10vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
     border: 1px solid hsl(0, 100%, 74%);
     margin-bottom: 1em;
     margin-top: 1em;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: start;
+    font-weight: 700;
 }
 form .btn{
     padding: 15px 10vw;
@@ -60,11 +66,49 @@ form .btn{
     color: #ffffff;
     border: none;
     background-color: hsl(154, 59%, 51%);
+    cursor: pointer;
 }
 form p{
     padding: 2em;
     text-align: center;
 }
-p strong{
+p strong a{
     color: hsl(0, 100%, 74%);
+    text-decoration: none;
 }
+
+/* @media only screen (max-width:450px)  {
+    .container{
+        display: none;
+        
+    }
+} */
+@media only screen and (max-width: 500px) {
+    .container {
+      background-image: url(/images/bg-intro-mobile.png);
+      display: flex;
+      flex-direction: column;
+      height: max-content;
+      align-items: center;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .info{
+        margin-left: 8em;
+        align-content: center;
+        margin-bottom: 3em;
+    }
+    form {
+    padding: 5vw;    
+    }
+    .learn{
+        margin-left: 3em;
+    }
+    .learn h3{
+        text-align: center;
+    }
+    .learn p{
+        text-align: center;
+    }
+    
+  }
