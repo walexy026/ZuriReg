@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-image: url(/images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:hsl(0, 100%, 74%);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px; */
+}
+ .learn{
+    color: #ffffff;
+    padding: 5em;
+    text-align: left;
+} 
+ .learn h3{
+    font-size: 30px;
+    /* width: 10em; */
+    padding-bottom: 2vh;
+} 
+.info{
+    text-align: center;
+    padding-right: 5em;
+}
+.info button:nth-child(1){
+    background-color:  hsl(248, 32%, 49%);
+    color: #ffffff;
+    padding: 15px 10vw;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+form{
+    /* padding: 15px 7vw; */
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+form input{
+    /* padding: 15px 10vw; */
+    border: 1px solid hsl(0, 100%, 74%);
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-radius: 5px;
+    text-align: start;
+}
+form .btn{
+    padding: 15px 10vw;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    color: #ffffff;
+    border: none;
+    background-color: hsl(154, 59%, 51%);
+}
+form p{
+    padding: 2em;
+    text-align: center;
+}
+p strong{
+    color: hsl(0, 100%, 74%);
+}
